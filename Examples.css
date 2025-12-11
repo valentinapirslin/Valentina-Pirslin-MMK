@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+:root {
+    --site-color-01: rgb(114, 67, 19);
+}
+
+body {
+    background: linear-gradient(
+        rgb(21, 10, 1),
+        rgb(59, 29, 4),
+        rgb(141, 77, 24),
+        rgb(220, 143, 80),
+        rgb(238, 171, 116)
+    );
+    margin: 0;
+    padding: 0;
+    font-family: MomoTrustDisplay-Regular, sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: "MomoTrustDisplay-Regular";
+    src: url("Momo_Trust_Display/MomoTrustDisplay-Regular.ttf") format("truetype");
+}
+
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MomoTrustDisplay-Regular;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(94, 104, 160);
+}
+
+.introduction p {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.benefits,
+.facts {
+    background-color: #b7793b;
+    border: 5px solid white;
+    width: 75%;
+    margin: 50px auto;
+    padding: 40px;
+    display: block;
+}
+
+.benefits ol,
+.facts blockquote {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.benefits ol {
+    list-style-type: upper-roman;
+    margin-left: 40px;
+}
+
+.facts blockquote {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-left: 4px solid white;
+}
+
+.form {
+    background-color: #b7793b;
+    border: 5px solid white;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+fieldset {
+    background-color: rgba(72, 53, 4, 0.4);
+    border: 3px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+}
+
+legend {
+    color: darkblue;
+    font-size: 18px;
+}
+
+input {
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+input[type=submit],
+input[type=reset],
+button {
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background: green;
+    color: white;
+}
+
+input[type=reset] {
+    background: orangered;
+    color: white;
+}
+
+input[type=button] {
+    background: rgb(23, 179, 246);
+    padding: 10px 20px;
+    border: 2px solid rgb(46, 23, 221);
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px dimgray;
+}
+
+.table {
+    width: 90%;
+    margin: 40px auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgb(255, 186, 194);
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+#r1 {
+    background-color: rgb(255, 113, 137);
+}
+
+tr:nth-child(odd):not(#r1) {
+    background-color: rgb(255, 206, 214);
+}
+
+.audiobook iframe {
+    width: 80%;
+    height: 450px;
+    display: block;
+    margin: 30px auto;
+}
+
+.audiobook object {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.reccomendation img {
+    border: 3px solid whitesmoke;
+    margin: 15px;
+    height: 300px;
+	
+}
+
+.reccomendation div{
+    border: 3px solid whitesmoke;
+    margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.quotes div{
+    border: 3px solid whitesmoke;
+    margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.quotes img {
+    border: 3px solid whitesmoke;
+    height: 150px;
+    margin: 10px;
+}
+
+.quotes video,
+.quotes audio {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+
+    p {
+        width: 90%;
+    }
+
+    .benefits,
+    .facts,
+    .form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .reccomendation img {
+        height: 200px;
+    }
+
+    .quotes img {
+        height: 120px;
+    }
+
+    .audiobook iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.container, 
+.map-section,
+.map-container {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+.map-container iframe {
+    display: block;
+    margin: 20px auto;
+    width: 80%;      
+    max-width: 600px;
+    height: 400px;
+    border: 0;
+}
+
+.map-section h2,
+.map-section p {
+    text-align: center;
+}

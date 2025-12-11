@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MMK vježba</title>
+    <link rel="stylesheet" href="Nav bar.css">
+    <link rel="stylesheet" href="Examples.css">
+</head>
+
+<body>
+
+<main> 
+    <nav>
+        <ul>
+            <li><a href="Examples.html">START</a></li>
+        </ul>
+    </nav>
+
+    <h3>Valentina Piršlin</h3>
+    <h1>READING</h1>
+</main>
+
+<div class="introduction">
+
+    <p>Your chance to discover!<br>
+    If you are here, that means you want to read more books, but can't persuade yourself to do so.
+    Don't worry, we have got you covered.</p>
+
+    <p>You may ask yourself, why should people read? 
+        We have movies, music and thousands of other hobbies and ways to learn. 
+        Reading just means looking at dried ink on paper, right?
+        <b>WRONG!</b><br>
+        Let me enlighten you with the benefits of reading.
+    </p>
+
+    <div class="benefits">
+        <h2>BENEFITS</h2>
+
+        <ol class="ol"> 
+            <li>READING MAKES YOU SMARTER
+                <ul>
+                    <li>Builds vocabulary</li>
+                    <li>Improves writing</li>
+                    <li>Helps you understand complex ideas</li>
+                    <li>MORE READING = EASIER LEARNING</li>
+                </ul>
+            </li>
+
+            <li>READING OPENS YOUR IMAGINATION
+                <ul>
+                    <li>Books take you to places you have never been</li>
+                    <li>Creative thinking</li>
+                    <li>Experience without being there</li>
+                </ul>
+            </li>
+
+            <li>READING REDUCES STRESS
+                <ul>
+                    <li>It allows you to relax</li>
+                    <li>Improves mental health and focus</li>
+                    <li>Teaches you empathy</li>
+                </ul>
+            </li>
+        </ol> 
+    </div>
+
+    <p>Still not convinced if reading is for you?<br>
+        Perhaps you need a more concrete piece of information.
+    </p>
+
+    <div class="facts">
+        <h2>FACTS</h2>
+
+        <blockquote>
+            <b>READING STRENGTHENS THE BRAIN</b><br><br>
+            MRI studies show that reading increases neural connectivity in the brain’s language 
+            and sensory areas.<br><br>
+            FACT: After 2–3 weeks of regular reading, researchers observed measurable increases 
+            in brain activity (small but significant).
+        </blockquote>
+
+        <blockquote>
+            <b>READING REDUCES STRESS BY UP TO 68%</b><br><br>
+            A study from the University of Sussex found that reading lowers stress levels by 68%, 
+            beating music (61%), tea (54%), and walking (42%).
+        </blockquote>
+
+        <blockquote>
+            <b>READING IMPROVES VOCABULARY GROWTH BY 50–100%</b><br><br>
+            Regular readers develop vocabularies 50–100% larger than non-readers.
+        </blockquote>
+    </div>
+
+    <p>You have just decided you want to read a book. But which book?<br>
+    Don’t worry — fill out the form below and get recommendations!</p>
+
+    <div class="form">
+        <h2>BOOKISH FORM</h2>
+        <h4>BECOME USER</h4>
+
+        <form>
+            <fieldset>
+                <legend>REQUIRED</legend>
+                Ime: <input type="text" name="Ime" size="15"><br>
+                Prezime: <input type="text" name="Prezime" size="15"><br><br>
+                <input type="submit" value="Send">
+            </fieldset>
+        </form>
+
+        <form method="post">
+            <fieldset>
+                <legend>REQUIRED</legend>
+                Username: <input type="text" name="User"><br>
+                Password: <input type="password" name="Password" maxlength="8"><br>
+                Number of token: <input type="text" name="Token" size="10"><br>
+                PIN: <input type="password" name="PIN" maxlength="4" size="4"><br><br>
+                <input type="reset">
+                <input type="submit" value="Accept">
+            </fieldset>
+        </form>
+
+        <h4>GENDER</h4>
+        <form>
+            <input type="radio" name="Gender" value="zensko"> Female<br>
+            <input type="radio" name="Gender" value="musko"> Male<br><br>
+            <input type="reset">
+            <input type="submit" value="Accept">
+        </form>
+
+        <h4>AGE</h4>
+        <p>Your age helps us choose the right book!</p>
+        <form>
+            Datum rođenja:<br>
+            <input type="date" name="rodendan">
+            <input type="submit">
+        </form>
+
+        <h4>FOR UPDATES</h4>
+        <form>
+            YOUR E-MAIL:
+            <input type="email" name="email">
+            <input type="submit">
+        </form>
+
+        <form>
+            WEB-ADDRESS:
+            <input type="url" name="Webpage">
+            <input type="submit">
+        </form>
+
+        <form>
+            PHONE:
+            <input type="tel" name="Tel" maxlength="10">
+            <input type="submit">
+        </form>
+
+        <h4>FOR STUDENTS ONLY</h4>
+        <form>
+            <fieldset>
+                <b>STUDENT</b><br><br>
+                Name: <input type="text" name="Ime" size="30"><br>
+                Email: <input type="email" name="E-mail" size="30"><br>
+                Faculty: <input type="text" name="Fakultet" size="30"><br>
+            </fieldset>
+        </form>
+
+        <h4>SELF-IMPROVEMENT</h4>
+        <form>
+            Ime: <input type="text" name="Ime" autofocus><br>
+            PIN: <input type="password" name="PIN" maxlength="4" required><br>
+            Email: <input type="email" name="E-mail"><br>
+            Webpage: <input type="url" name="Webpage" placeholder="webpage"><br>
+        </form>
+
+        <h4>GENRE</h4>
+        <form>
+            PICK YOUR FAVOURITE GENRE:<br>
+            <input type="checkbox" name="genre" value="fantasy"> Fantasy<br>
+            <input type="checkbox" name="genre" value="scifi"> Science Fiction<br>
+            <input type="checkbox" name="genre" value="mystery"> Mystery<br>
+            <input type="checkbox" name="genre" value="thriller"> Thriller<br>
+            <input type="checkbox" name="genre" value="romance"> Romance<br>
+            <input type="checkbox" name="genre" value="historical"> Historical Fiction<br>
+            <input type="checkbox" name="genre" value="horror"> Horror<br>
+            <input type="checkbox" name="genre" value="adventure"> Adventure<br>
+            <input type="checkbox" name="genre" value="literary"> Literary Fiction<br>
+            <input type="checkbox" name="genre" value="ya"> Young Adult<br>
+            <input type="checkbox" name="genre" value="classics"> Classics<br><br>
+            <input type="submit" value="Accept">
+            <input type="reset">
+        </form>
+
+        <h4>VIBE</h4>
+        <form>
+            <p>YOUR VIBE IN COLOR? Each color represents an emotion.</p>
+            <input type="color" name="boja" value="#FFFFFF">
+            <input type="submit">
+        </form>
+
+        <form action="mailto:valentinapirslin@gmail.com" method="post" enctype="text/plain">
+            <label>Name:</label>
+            <input type="text" name="Name"><br>
+            <label>E-mail:</label>
+            <input type="email" name="E-mail"><br>
+            <label>Message:</label>
+            <input type="text" name="Message"><br><br>
+            <input type="submit" value="Accept">
+            <input type="reset">
+        </form>
+
+        <p>If you already know which book you want, search it:</p>
+        <form method="get" action="https://www.google.hr/search">
+            <input type="search" name="q" size="23">
+            <input type="submit" value="Pretraži Google">
+        </form>
+
+        <textarea rows="5" cols="30">What do you love the most in books? Plot, characters, trope, etc.?</textarea>
+
+        <h4>LOVE TROPE & MAIN CHARACTER</h4>
+        <form>
+            <select name="LoveTropes">
+                <option value=""></option>
+                <option value="enemies">Enemies to Lovers</option>
+                <option value="friends">Friends to Lovers</option>
+                <option value="forbidden">Forbidden Love</option>
+                <option value="slow">Slow Burn</option>
+                <option value="triangle">Love Triangle</option>
+                <option value="fake">Fake Dating</option>
+                <option value="forced">Forced Proximity</option>
+                <option value="opposite">Opposites Attract</option>
+                <option value="second">Second Chance</option>
+                <option value="grumpy">Grumpy x Sunshine</option>
+                <option value="secret">Secret Relationship</option>
+                <option value="soulmates">Soulmates</option>
+                <option value="no">No Romance</option>
+            </select>
+        </form>
+
+        <form>
+            <input list="MainCharacter" name="MainCharacter">
+            <datalist id="MainCharacter">
+                <option value="Hero">
+                <option value="Villain">
+                <option value="Morally Grey">
+                <option value="Anti-hero">
+                <option value="Everyman">
+                <option value="Tragic Hero">
+                <option value="Chosen One">
+                <option value="Dynamic">
+                <option value="Static">
+                <option value="Outsider">
+            </datalist>
+        </form>
+
+        <h4>TEAMS MEETING</h4>
+        <form>
+            Meeting Time:<br>
+            <input type="time" name="Vrijeme">
+            <input type="submit">
+        </form>
+
+        <form>
+            <input type="button" value="BOOK" onclick="alert('PICK UP YOUR BOOK!')">
+        </form>
+
+    </div>
+
+    <div class="table">
+        <table>
+            <tr>
+                <td rowspan="13">FICTION GENRES</td>
+                <td>GENRES</td>
+            </tr>
+            <tr><td>Fantasy</td></tr>
+            <tr><td>Sci-Fi</td></tr>
+            <tr><td>Mystery</td></tr>
+            <tr><td>Thriller</td></tr>
+            <tr><td>Romance</td></tr>
+            <tr><td>Historical Fic.</td></tr>
+            <tr><td>Horror</td></tr>
+            <tr><td>Adventure</td></tr>
+            <tr><td>Literary</td></tr>
+            <tr><td>Young Adult</td></tr>
+            <tr><td>Classic</td></tr>
+        </table>
+
+        <h3>TABLE</h3>
+
+        <table>
+            <tr>
+                <th colspan="11">BOOK RECOMMENDATIONS</th>
+            </tr>
+            <tr>
+                <th>FANTASY</th>
+                <th>SCI-FI</th>
+                <th>MYSTERY</th>
+                <th>THRILLER</th>
+                <th>ROMANCE</th>
+                <th>HISTORICAL</th>
+                <th>HORROR</th>
+                <th>ADVENTURE</th>
+                <th>LITERARY</th>
+                <th>YOUNG ADULT</th>
+                <th>CLASSICS</th>
+            </tr>
+
+            <tr>
+                <td>Six of Crows</td>
+                <td>Dune</td>
+                <td>The Girl with the Dragon Tattoo</td>
+                <td>Gone Girl</td>
+                <td>Pride and Prejudice</td>
+                <td>The Book Thief</td>
+                <td>It</td>
+                <td>Treasure Island</td>
+                <td>The Great Gatsby</td>
+                <td>The Hunger Games</td>
+                <td>To Kill a Mockingbird</td>
+            </tr>
+
+            <tr>
+                <td>Harry Potter</td>
+                <td>The Martian</td>
+                <td>And Then There Were None</td>
+                <td>The Silent Patient</td>
+                <td>The Fault in Our Stars</td>
+                <td>All the Light We Cannot See</td>
+                <td>The Haunting of Hill House</td>
+                <td>The Three Musketeers</td>
+                <td>The Road</td>
+                <td>Divergent</td>
+                <td>1984</td>
+            </tr>
+
+            <tr>
+                <td>The Hobbit</td>
+                <td>Ender's Game</td>
+                <td>The Da Vinci Code</td>
+                <td>The Girl on the Train</td>
+                <td>Me Before You</td>
+                <td>The Nightingale</td>
+                <td>Bird Box</td>
+                <td>Life of Pi</td>
+                <td>Normal People</td>
+                <td>Warrior Cats</td>
+                <td>Crime and Punishment</td>
+            </tr>
+        </table>
+
+        <caption>Tablica 1. Primjer tablice</caption>
+    </div>
+
+    <div class="audiobook">
+        <h2>AUDIOBOOKS</h2>
+        <p>If you are interested in audiobooks, here is a safe website!</p>
+
+        <a href="https://fulllengthaudiobooks.net/">Audiobooks (Free)</a>
+
+        <iframe src="https://fulllengthaudiobooks.net/"></iframe>
+
+        <a href="Examples.html">START</a>
+
+        <h2>FULL VERSIONS OF GREAT BOOKS:</h2>
+        <object data="Evelyn.pdf">The Seven Husbands of Evelyn Hugo</object>
+        <object data="Larue.pdf">The Invisible Life of Addie LaRue</object>
+        <object data="Life.pdf">A Little Life</object>
+    </div>
+
+    <h2>REVIEW OF MY FAVOURITE BOOK</h2>
+
+    <div class="facts">
+        <h2>SIX OF CROWS</h2>
+
+        <blockquote>
+            Six of Crows is a fast-paced, character-driven heist fantasy full of gritty atmosphere, 
+            clever twists, and emotional depth.  
+            Beneath the chaos and sharp banter lies a story about trust, trauma, 
+            and chosen family. Stylish, smart, and unforgettable.  
+            <br><br><i>“No mourners. No funerals.”</i>
+        </blockquote>
+
+        <img src="soc.jpg" width="300">
+    </div>
+
+    <div class="reccomendation">
+        <h2>MORE OF MY FAVOURITE BOOKS:</h2>
+        <div>
+            <img src="glass.jpg" height="300">
+            <img src="hp.jpg" height="300">
+            <img src="little.jpg" height="300">
+            <img src="sun.jpg" height="300">
+            <img src="wing.jpg" height="300">
+            <img src="loki.jpg" height="300">
+        </div>
+    </div>
+
+    <div class="quotes">
+        <div>
+        <img src="quote2.jpg">
+        <img src="quote1.jpg">
+        <img src="quotes5.jpg">
+        <img src="quote4.jpg">
+        <img src="quote3.jpg">
+    </div>
+
+        <h3>Changes your Brain — let me explain.</h3>
+        <video width="300" controls>
+            <source src="Reading.mp4" type="video/mp4">
+        </video>
+
+        <h3>Atomic Habits Summary</h3>
+        <audio controls>
+            <source src="Summary.mp3" type="audio/mp3">
+        </audio>
+
+        <a href="https://www.gutenberg.org/">
+            <button>Project Gutenberg</button>
+        </a>
+
+        <img src="Nekoma.jpg" usemap="#mojaMapa" alt="Mapa slike">
+
+        <map name="mojaMapa">
+            <area shape="rect" coords="10,10,200,150" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpr3K7UE1k6N8K9YBs8ToxFPME3RNibKSBTVpO0piLAyMvixi-9TMADKnwEuHIbk3BKnLrXWML5_ddvGTBH6XFY-Z-KdVHyTdBanr8ghA&s=10" alt="Nekoma.jpg">
+        </map>
+
+    </div>
+
+</div>
+
+<section class="map-section">
+    <h2>Find Stories
+    </h2>
+    <p>Here is the location connected to our story and inspiration.</p>
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509279!2d144.95373531531692!3d-37.81627974202183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5773e8e15c93d5b!2sState%20Library%20Victoria!5e0!3m2!1sen!2sph!4v1700000000000"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+</body>
+</html>
